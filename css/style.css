@@ -1,0 +1,91 @@
+
+#capa {
+ background-image: url(/img/capa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+}
+.container{
+    padding-top: 50px;
+    text-align: center;
+}
+.container .row h2{
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container h1{
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.container span{
+    color: rgb(247, 50, 39);
+}
+
+#titulo {
+    position: absolute;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.452);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container svg{
+   color: rgb(247, 50, 39);
+}
+
+.row .col{
+    text-align: center;
+    padding: 10px 0px;
+    margin: 0px 60px;
+
+}
+
+.row .col h1{
+    font-family: 'Poppins', sans-serif;
+/* font-family: 'Varela Round', sans-serif; */
+    font-size: 40px;
+}
+
+.row .col img{
+    width: 300px;
+    height: 200px;
+    margin: 20px 10px;
+}
+/* #capa2 {
+    background-image: url(/img/carrou-1.jpg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+       position: relative;
+       width: 100%;
+       height: 100vh;
+   
+   } */
+
+   #personal img{
+       
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       position: relative;
+       width: 400px;
+       height: auto;
+   }
+
+   h6 {
+       color: rgb(24, 228, 177);
+       font-weight: 900;
+    font-size: 30px;}
+   /* carroussel */
